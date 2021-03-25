@@ -1,83 +1,29 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
-    color: white;
 }
 
-body{
-   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('1.jpg');
-   background-position: center;
-   background-size: cover;
-   height: 100vh;
-   position: relative;
-}
-
-.top{
-    display: inline-block;
-    margin-left: 20px;
-    padding-left: 50px;
-    padding-bottom: 8px;
-}
-.top span{
-    padding-left: 110px;
-}
-
-.nav{
+.main{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 8px;
-    border-top: 0.1px solid rgb(151, 145, 145);
-    border-bottom: 0.1px solid  rgb(151, 145, 145);
-    padding-bottom: 10px;
+    justify-content:flex-end;
+    /* align-items: center; */
 }
-
-.nav_left{
-    font-size: 10px;
-    font-family: 'Crimson Text', serif;
-    padding-left: 15px;
-}
-.nav_right ul {
+.main .nav ul{
     list-style-type: none;
 }
-
-.nav_right ul li{
+.main .nav ul li{
     display: inline-block;
-    padding-right: 20px;
 }
 
-.nav_right ul li .main {
-    color: rgb(235, 48, 15);
-}
-
-.nav_right ul li .last {
-    border: 1px solid rgb(238, 128, 128);
-    background-color: brown;
-    border-radius: 10px;
-}
-
-.nav_right ul li a{
+.main .nav ul li a {
     text-decoration: none;
-    padding:5px;
+    padding-right: 30px;
+    padding-top: 8px;
+    font-family: 'Itim', cursive;
+    color: brown;
 }
 
-.centre {
-    position: absolute;
-    top: 40%;
-    left: 35%;
+.main .nav ul li a .abc {
+    color: cornflowerblue;
 }
-
-.centre h2{
-    padding-left: 100px;
-    font-family: 'Tangerine', cursive;
-    font-size: 50px;
-    color: rgb(247, 62, 62);
-}
-.centre h2{
-    padding-left: 100px;
-    font-family: 'Tangerine', cursive;
-    font-size: 50px;
-    color: rgb(247, 62, 62);
-}
-
