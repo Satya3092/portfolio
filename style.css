@@ -3,3 +3,57 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+.whole{
+    position: relative;
+}
+
+.whole .first {
+    border: 2px solid #333;
+    height: 50px;
+    width: 100%;
+    background-color: #444;
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.whole .first .one{
+    font-size: 30px;
+    border-right: 1px solid white;
+    padding-right: 10px;    
+}
+
+.whole .first span{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main .main1{
+    /* display: inline-block; */
+    padding-top: 70px;
+
+}
+.main .main1 ul{
+    list-style-type: none;
+}
+
+.main .main1 ul li {
+    display: inline-block;
+}
+
+.main .main1 ul li a{
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.main .main1 ul .last {
+    margin-left: 900px;
+}
