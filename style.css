@@ -6,6 +6,7 @@
 
 .whole{
     position: relative;
+    
 }
 
 .whole .first {
@@ -31,14 +32,20 @@
 }
 
 .main{
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .main .main1{
-    /* display: inline-block; */
+    
     padding-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    
 
 }
 .main .main1 ul{
@@ -52,8 +59,21 @@
 .main .main1 ul li a{
     text-decoration: none;
     padding-left: 50px;
+    color: brown;
 }
 
 .main .main1 ul .last {
-    margin-left: 900px;
+    margin-left:  400px;
+    border: 1px solid black;
+    padding: 5px;
 }
+
+.main img {
+    height: 150px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+
+
